@@ -11,6 +11,10 @@ def get_config():
     return cfg
 
 
+def get_api_base():
+    return "http://localhost:3000"
+
+
 # def write_config(cfg):
 #     try:
 #         mw.addonManager.writeConfig(__name__, cfg)
