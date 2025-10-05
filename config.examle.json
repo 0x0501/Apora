@@ -1,3 +1,7 @@
 {
-    "token": "Your token copied from Paradox. This should not be revealed."
+    "token": "Your API token copied from Apora.",
+    "ipa_source_field_name": "",
+    "ipa_target_field_name": "",
+    "translation_source_field_name": "",
+    "translation_target_field_name": ""
 }

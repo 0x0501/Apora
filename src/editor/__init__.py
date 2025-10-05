@@ -1,0 +1,2 @@
+from .phonetics import on_setup_ipa_button
+from .translation import on_setup_translation_button
