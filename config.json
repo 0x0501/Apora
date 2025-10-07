@@ -1,7 +1,8 @@
 {
-    "token": "qGUydXZAJpQwjenxrpTVTXskoGpvryaGJxfsWbbsUgfOIKYpWjmYotxEuLZfkMuF",
-    "ipa_source_field_name": "Word",
-    "ipa_target_field_name": "IPA",
-    "translation_source_field_name": "Example",
-    "translation_target_field_name": "Example-CN"
+    "token": "",
+    "variant": "",
+    "ipa_source_field_name": "",
+    "ipa_target_field_name": "",
+    "translation_source_field_name": "",
+    "translation_target_field_name": ""
 }
