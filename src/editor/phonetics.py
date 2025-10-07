@@ -37,6 +37,9 @@ def bg_ipa_generate(
 
     data = {"input": source}
 
+    print(f"IPA Generate API: {api_url}")
+    print(f"Token: {token}")
+
     # 发送 POST 请求
     response = requests.post(api_url, headers=headers, json=data)
 
@@ -57,6 +60,7 @@ def bg_ipa_generate(
                 return res_type
         except KeyError:
             showInfo(f"Invalid key, the original response: {json.dumps(raw_res)}")
+            print(f"Invalid key, the original response: {json.dumps(raw_res)}")
             print(raw_res)
             return None
     else:
@@ -78,6 +82,7 @@ def on_bg_success(data: Union[ResponseType, None]) -> None:
 def on_handle_ipa_generate(editor: Editor):
     if editor.note is None:
         showInfo("Error: editor.note is None.")
+        print("Error: editor.note is None.")
         return
 
     try:
@@ -112,7 +117,6 @@ def on_handle_ipa_generate(editor: Editor):
         if source_purified != "":
             op.without_collection().run_in_background()
         else:
-            showInfo(f"Source IPA field `{config['ipa_source_field_name']}` is empty.")
             print(f"Source IPA field `{config['ipa_source_field_name']}` is empty.")
 
 

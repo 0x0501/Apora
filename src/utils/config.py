@@ -12,7 +12,7 @@ def get_config():
 
 
 def get_api_base():
-    return "http://localhost:3000"
+    return "https://apora.sumku.cc"
 
 
 # def write_config(cfg):
