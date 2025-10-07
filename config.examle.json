@@ -1,5 +1,6 @@
 {
     "token": "Your API token copied from Apora.",
+    "variant": "British English/American English. By default is American english.",
     "ipa_source_field_name": "",
     "ipa_target_field_name": "",
     "translation_source_field_name": "",

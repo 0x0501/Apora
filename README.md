@@ -9,6 +9,7 @@ Apora Anki integration Configuration:
 ```json
 {
     "token": "",
+    "variant": "",
     "ipa_source_field_name": "",
     "ipa_target_field_name": "",
     "translation_source_field_name": "",
@@ -18,9 +19,11 @@ Apora Anki integration Configuration:
 
 - `token`: Your Apora token, visit
   [https://apora.sumku.cc](https://apora.sumku.cc) to generate one.
+- `variant`: Accent variant, US (American English) or GB (British English)
 - `ipa_source_field_name`: From which field your english word will extract.
 - `ipa_target_field_name`: Into which field should your IPA will be put.
 - `translation_source_field_name`: From which field your english sentence will
   extract.
 - `translation_target_field_name`: Into which field should your
   Chinese-Translation will be put.
+

@@ -33,9 +33,11 @@ def bg_ipa_generate(
 
     token = config["token"]
 
+    variant = "US" if config["variant"] == "US" else "GB" if config["variant"] else "US"
+
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
 
-    data = {"input": source}
+    data = {"input": source, "variant": variant}
 
     print(f"IPA Generate API: {api_url}")
     print(f"Token: {token}")
